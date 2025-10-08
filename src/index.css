@@ -66,11 +66,3 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
-
-.task-line {
-  flex-direction: row;
-}
-
-.task-p-selected {
-  text-decoration: line-through;
-}

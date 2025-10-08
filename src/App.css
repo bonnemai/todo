@@ -40,3 +40,64 @@
 .read-the-docs {
   color: #888;
 }
+
+.input-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 2rem 0;
+}
+
+.input-box input {
+  flex: 1;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: inherit;
+  transition: border-color 0.25s;
+}
+
+.input-box input:hover {
+  border-color: #646cff;
+}
+
+.input-box input:focus {
+  outline: none;
+  border-color: #646cff;
+}
+
+.input-box button {
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.input-box button:hover {
+  border-color: #646cff;
+}
+
+.input-box button:focus,
+.input-box button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+
+.task-line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 30 30 30 30 ;
+}
+
+.task-p-selected {
+  text-decoration: line-through;
+}
